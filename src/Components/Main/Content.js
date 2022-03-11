@@ -2,7 +2,7 @@ import CounterBtn from './CounterBtn'
 
 function Content() {
   return (
-    <div className=" space-y-5 lg:space-y-7 mx-5 lg:mx-10 pt-44">
+    <div className=" space-y-5 lg:space-y-7 mx-5 lg:mx-10 pt-10 pb-20 lg:pb-0 lg:pt-44">
       <p className=" font-bold text-orange-500 text-sm tracking-widest">
         SNEAKER COMPANY
       </p>
