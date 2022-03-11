@@ -13,7 +13,7 @@
 }
 
 .btn {
-  @apply relative z-10 flex items-center px-44 text-sm space-x-2 bg-orange-500 text-white rounded-lg ml-5;
+  @apply relative z-10 flex items-center lg:px-10 xl:px-20 2xl:px-36 text-sm space-x-2 bg-orange-500 text-white rounded-lg lg:ml-5;
 }
 
 @layer base {

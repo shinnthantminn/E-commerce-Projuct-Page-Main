@@ -3,14 +3,14 @@ import CounterBtn from './CounterBtn'
 
 function Content() {
   return (
-    <div className="space-y-7 mx-10 pt-44">
+    <div className=" space-y-5 lg:space-y-7 mx-5 lg:mx-10 pt-44">
       <p className=" font-bold text-orange-500 text-sm tracking-widest">
         SNEAKER COMPANY
       </p>
-      <h1 className="text-5xl tracking-tight font-bold text-black">
+      <h1 className="text-3xl lg:text-5xl tracking-tight font-bold text-black">
         Fall Limited Edition Sneakers
       </h1>
-      <p className="text-sm w-[80%] text-gray-500">
+      <p className="text-sm lg:w-[80%] text-gray-500">
         These low-profile sneakers are your perfect casual wear companion.
         Featuring a durable rubber outer sole, they’ll withstand everything the
         weather can offer.
