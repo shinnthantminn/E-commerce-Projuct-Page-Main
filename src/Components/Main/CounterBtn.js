@@ -1,4 +1,3 @@
-import React from 'react'
 import { BsPlusLg } from 'react-icons/bs'
 import { FaMinus } from 'react-icons/fa'
 import { BsCart3 } from 'react-icons/bs'

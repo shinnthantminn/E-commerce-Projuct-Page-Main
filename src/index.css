@@ -8,6 +8,14 @@
   @apply absolute z-[9999] bg-white sm:translate-x-[-50%] lg:translate-x-0 duration-300 top-[100%] left-[50%] lg:left-[auto] lg:right-[-3rem] w-[350px] shadow-[0_5px_20px_rgb(0_0_0_/_25%)] rounded-lg transform-cpu;
 }
 
+.imgContainer {
+  @apply duration-200 rounded-lg hover:opacity-[0.5] hover:shadow-[0_3px_15px_rgb(0_0_0_/_20%)] hover:translate-y-[-5px];
+}
+
+.active {
+  @apply border border-orange-500 opacity-[0.5];
+}
+
 .menu {
   @apply pt-4 z-[9999] pl-5 lg:p-0 duration-300 flex bg-white min-h-[100vh] lg:min-h-0 fixed top-0 left-0 w-[60%] lg:w-fit lg:static flex-col lg:flex-row space-y-3 lg:space-y-0 lg:space-x-8;
 }

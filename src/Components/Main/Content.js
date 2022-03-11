@@ -1,4 +1,3 @@
-import React from 'react'
 import CounterBtn from './CounterBtn'
 
 function Content() {
