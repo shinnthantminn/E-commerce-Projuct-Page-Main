@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.cart {
+  @apply absolute z-[9999] bg-white sm:translate-x-[-50%] lg:translate-x-0 duration-300 top-[100%] left-[50%] lg:left-[auto] lg:right-[-3rem] w-[350px] shadow-[0_5px_20px_rgb(0_0_0_/_25%)] rounded-lg transform-cpu;
+}
+
+.menu {
+  @apply pt-4 z-[9999] pl-5 lg:p-0 duration-300 flex bg-white min-h-[100vh] lg:min-h-0 fixed top-0 left-0 w-[60%] lg:w-fit lg:static flex-col lg:flex-row space-y-3 lg:space-y-0 lg:space-x-8;
+}
+
+.btn {
+  @apply relative z-10 flex items-center px-44 text-sm space-x-2 bg-orange-500 text-white rounded-lg ml-5;
+}
+
+@layer base {
+  html {
+    font-family: 'Kumbh Sans', sans-serif;
+  }
+}
